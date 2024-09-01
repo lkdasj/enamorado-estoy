@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background: url(img/1166049.jpg) no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    background-color: #0000009b;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    width: 600px;
+}
+
+h1 {
+    color: #ff1493;
+    font-size: 3em; /* Tamaño del título principal */
+}
+
+p {
+    font-size: 1.8em; /* Tamaño del texto del párrafo */
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#yesButton {
+    background-color: #32cd32;
+    color: white;
+}
+
+#noButton {
+    background-color: #dc143c;
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: white;
+    color: #32cd32;
+}
+
+#noButton:hover {
+    background-color: white;
+    color: #dc143c;
+}
+
+#playSongButton {
+    background-color: #ff69b4;
+    color: white;
+    font-family: 'dancing script', cursive;
+    font-size: 25px;
+}
+
+#sizeimg{
+    width: 200px;
+    rotate: 260deg;
+}
